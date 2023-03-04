@@ -8,6 +8,7 @@ int SumNum(int arg)
     int digit = arg %10;
     int nextValue = arg/10;
      return digit+SumNum(nextValue);
+     
 }
 
 Console.Write("Введите число: ");
